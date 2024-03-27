@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ways_of_workings",
+  "info": {
+    "singularName": "ways-of-working",
+    "pluralName": "ways-of-workings",
+    "displayName": "WaysOfWorking"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "working": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

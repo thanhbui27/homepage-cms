@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recruitments",
+  "info": {
+    "singularName": "recruitment",
+    "pluralName": "recruitments",
+    "displayName": "Recruitment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "job_position": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::job-position.job-position"
+    },
+    "working_time": {
+      "type": "enumeration",
+      "enum": [
+        "Full-time",
+        "Part-time"
+      ]
+    },
+    "deadline_submission": {
+      "type": "date"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "ways_of_workings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ways-of-working.ways-of-working"
+    },
+    "levels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::level.level"
+    },
+    "job_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::job-category.job-category"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "requirement": {
+      "type": "richtext"
+    },
+    "benefits": {
+      "type": "richtext"
+    }
+  }
+}

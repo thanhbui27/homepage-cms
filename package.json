@@ -1,0 +1,42 @@
+{
+  "name": "cms-homepage-spax",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@strapi/plugin-color-picker": "^4.16.2",
+    "@strapi/plugin-documentation": "4.11.4",
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/provider-email-nodemailer": "^4.12.0",
+    "@strapi/provider-email-sendgrid": "^4.12.0",
+    "@strapi/provider-email-sendmail": "^4.12.0",
+    "@strapi/provider-upload-aws-s3": "^4.11.7",
+    "@strapi/strapi": "4.11.4",
+    "axios": "^1.4.0",
+    "better-sqlite3": "8.0.1",
+    "dotenv": "^16.3.1",
+    "googleapis": "^123.0.0",
+    "pg": "^8.11.1",
+    "sharp": "^0.32.3",
+    "strapi-provider-email-smtp": "^1.0.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "759272c7-5ed0-466f-bb42-9588df016888"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_page_customer_sections",
+  "info": {
+    "displayName": "customerSection"
+  },
+  "options": {},
+  "attributes": {
+    "customerName": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

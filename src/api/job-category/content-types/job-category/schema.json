@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_categories",
+  "info": {
+    "singularName": "job-category",
+    "pluralName": "job-categories",
+    "displayName": "JobCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "short_name": {
+      "type": "string"
+    }
+  }
+}
